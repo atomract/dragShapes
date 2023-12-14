@@ -49,7 +49,7 @@ const AddShapeBtnPage = () => {
         {/* mapping through array of shapes to get all the shapes  */}
         {shapes.map((e: any, i: any) => {
             return(
-            <div>
+            <div className='animate-pulse duration-700'>
                 <div className="target" ref={targetRef} key={i}>
                     {e}
                 </div>
